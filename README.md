@@ -18,7 +18,12 @@ The methodology and tools used in this project are helpful for any individual or
 ## 2. Data
 ### 2.1 New York City data
 + Data Source: https://cocl.us/new_york_dataset
-+ Description: This data contains the Borough and Neighborhoods of New York city along with their latitude and longitudes
++ Description: This data contains 5 Borough and 306 Neighborhoods of New York city along with their latitude and longitude. This data is is crucial for mapping and exploring the different neighborhoods in New York City. Below is a sample of this data set:
+![new york city data image](https://user-images.githubusercontent.com/67845270/87205315-27379c80-c2d5-11ea-8979-85e09f13e017.png)
+
+### 2.2 Airbnb Listing data
++ Data Source: http://insideairbnb.com/get-the-data.html
++ Description: This data contains the entire Airbnb listings in New York city on 08 June, 2020. It provides the essential information of each listing including id, name, neighbourhood group, neighbourhood, latitude, longitude, room type, price, minimum nights, number of reviews, available days, and etc.. Those detailed information will help us to screen out the ones that match the searching criteria. And the geographical location of each listing will be linked with Foursquare data to find the surrounding venues for further analysis. Below is a sample of this data set:
 
 
 
