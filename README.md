@@ -30,7 +30,7 @@ The methodology and tools used in this project are helpful for any individual or
 + Data Source: Foursquare API
 + Description: From Foursquare API, we can get the Manhattan Venue data which contains the top 100 venues that are in each Manhattan neighborhood within a radius of 500 meters. It will be filtered to get all the restaurants in each neighborhood which will be utilized for clustering purpose. Meanwhile, we can get Airbnb Listing Venue data which contains the top 100 venues that are around each Airbnb listing within a raidus of 500 meters. We can filter the Airbnb listings based on the number of venues around them.
 
-### 2.5 Borough Boundaries data
+### 2.4 Borough Boundaries data
 + Data Source: https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm
 + Description: This json file contains the geographic data of 5 borough boundaries. It will be paired with other data set to create a choropleth map of New York City for data visualization.
 
