@@ -26,13 +26,9 @@ The methodology and tools used in this project are helpful for any individual or
 + Description: This data contains the entire Airbnb listings in New York city on 08 June, 2020. It provides the essential information of each listing including id, name, neighbourhood group, neighbourhood, latitude, longitude, room type, price, minimum nights, number of reviews, available days, and etc.. Those detailed information will help us to screen out the ones that match the searching criteria. And the geographical location of each listing will be linked with Foursquare data to find the surrounding venues for further analysis. Below is a sample of this data set:
 ![airbnb listing data image](https://user-images.githubusercontent.com/67845270/87207075-05401900-c2d9-11ea-9a94-6783b50bed37.png)
 
-### 2.3 Manhattan Venue data
+### 2.3 Foursquare Location data
 + Data Source: Foursquare API
-+ Description: This data contains the top 100 venues that are in each Manhattan neighborhood within a radius of 500 meters. It will be filtered to get all the restaurants in each neighborhood which will be utilized for clustering purpose.
-
-### 2.4 Airbnb Listing Venue data
-+ Data Source: Foursquare API
-+ Description: This data contains the top 100 venues that are around each Airbnb listing within a raidus of 500 meters. We can filter the Airbnb listings based on the number of venues around them.
++ Description: From Foursquare API, we can get the Manhattan Venue data which contains the top 100 venues that are in each Manhattan neighborhood within a radius of 500 meters. It will be filtered to get all the restaurants in each neighborhood which will be utilized for clustering purpose. Meanwhile, we can get Airbnb Listing Venue data which contains the top 100 venues that are around each Airbnb listing within a raidus of 500 meters. We can filter the Airbnb listings based on the number of venues around them.
 
 ### 2.5 Borough Boundaries data
 + Data Source: https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm
