@@ -1,3 +1,6 @@
-# Coursera Capstone Project
+# **Coursera Capstone Project**
 ## The Battle of Neighborhoods Final Project
-This repository is a Coursera Capstone
+
+
+## 1. Introduction
+### 1.1 Background
